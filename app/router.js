@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('funny-tab');
+  this.route('global');
+  this.route('funny');
+  this.route('serious');
 });
 
 export default Router;
